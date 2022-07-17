@@ -1,0 +1,215 @@
+body, html {
+    height: 99%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(247, 240, 205)
+  }
+
+  .sidebar {
+    height: 99%;
+    width: 210px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(139, 134, 134);
+    overflow-x: hidden;
+    padding-top: 16px;
+  }
+  
+  .sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    display: block;
+  }
+  
+  .sidebar a:hover {
+    color: #fbff00;
+  }
+  
+  .main {
+    margin-left: 210px; /* Same as the width of the sidenav */
+    padding: 0px 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+
+  .bottomleft {
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+    font-size: 20px;
+  }
+
+  .container {  
+    padding: 40px;  
+  background-color: rgb(139, 134, 134); 
+  color: #ffffff; 
+}
+
+.containergx {  
+  width:100%;
+  height:900px;
+  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center; 
+  background-color: rgb(139, 134, 134); 
+  color: #ffffff;
+}
+
+.container2 {  
+  width:100%;
+  height:500px;
+  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center; 
+  background-color: rgb(139, 134, 134); 
+  color: #ffffff;
+}
+
+.container3 {  
+  width:100%;
+  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  color: #ffffff;
+}
+
+.containerx {  
+  width:100%;
+  height:500px;
+  background-color: rgb(139, 134, 134); 
+  color: #ffffff;
+}
+
+
+input[type=text], input[type=password], input[type=disabled], input[type=email], textarea {  
+  width: 98.7%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+} 
+
+input[type=search], textarea {  
+  width: 50%;  
+  padding: 15px; 
+  text-align:center; 
+  display: inline-block;  
+  border: black;  
+  background: #f1f1f1;  
+} 
+
+input[type=text]:focus, input[type=password]:focus {  
+  background-color: rgb(247, 240, 205);  
+  outline: none;  
+}  
+ div {  
+            padding: 10px 0;  
+         }  
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+.registerbtn { 
+  align-items: center; 
+  width: 101.5%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 6px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;  
+}  
+.registerbtn:hover {  
+  background-color: #45a049;  
+} 
+.sidetitle{
+  font-size: 90%;
+  text-align:center;
+  color:yellow; 
+}
+
+.table{
+  text-align:center;
+  table-layout: auto;
+  width: 98%;
+  overflow-x: auto;
+  border-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  counter-reset: rowNumber;
+}
+
+.msg {
+  margin: 30px auto; 
+  padding: 10px; 
+  border-radius: 5px; 
+  color: #3c763d; 
+  background: #dff0d8; 
+  border: 1px solid #3c763d;
+  width: 50%;
+  text-align: center;
+}
+
+.edit_btn {
+  text-decoration: none;
+  padding: 2px 5px;
+  background: #2E8B57;
+  color: white;
+  border-radius: 1px;
+}
+
+.del_btn {
+  text-decoration: none;
+  padding: 2px 5px;
+  color: white;
+  border-radius: 3px;
+  background: #800000;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid rgb(0, 0, 0);
+  margin: 0 4px;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+.center {
+  text-align: center;
+}
+
+.tableContainerDiv {
+  overflow: auto;
+  overflow-y:scroll;
+  max-height: 7em;
+}
+
+th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
