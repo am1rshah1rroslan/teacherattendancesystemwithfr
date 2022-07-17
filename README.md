@@ -14,7 +14,7 @@ Notes on the system:
 1) Login credential for ADMIN: username: admin | password: 123456 (Change this in the DB, inside admin table. Password is hashed with SHA256, so please hash your password with SHA256 before changing it).
 2) This system does not use any programming framework, as this project aims to help beginner to understand more on web programming and Facial Recognition A.I. Whole system uses native/basic HTML, CSS and JavaScript wth a bit on AJAX and JSON.
 3) Facial recognition used in this system is being refered from the following repo (link: https://github.com/WebDevSimplified/Face-Detection-JavaScript). More information on the facial recognition module can be seen here: (link: https://www.youtube.com/watch?v=CVClHLwv-4I&t=317s)
-4) All user data used in this system is only a template user consists ogf famous politicialn and football (or soccer) player. Please add your own data!
+4) All user data used in this system is only a template user consists of famous football (or soccer) players. Please add your own data!
 5) Facial recognition module may take some time to load registered user, estimation is about 15 seconds for 20 user.
 6) This system is only meant for small organization/groups that consists less than 30 members. More than that will cause facial recognition inaccuracies, performance issue and may crash your computer.
 7) In the system, user is assigned with status named TETAP and PINDAH. This status is used to indicate the availability of the user. TETAP means the user is still an employee of the schoiol whereas PINDAH means the user is not an employee anymore. You may change this in the coding if you like.
