@@ -8,7 +8,7 @@ How to install:
 4) Import the "tas.sql" file into your DB. (PHPMyAdmin)
 5) Enable hardware acceleration for your browser. You may find this in the settings.
 6) Make sure to allow webcam access for this system.
-7) That is all! You can now access the system by typing the localhost directiory of the system. (Example: localhost/attendance/index.php)
+7) That is all! You can now access the system by typing the localhost directory of the system. (Example: localhost/attendance/index.php)
 
 Notes on the system:
 1) Login credential for ADMIN: username: admin | password: 123456 (Change this in the DB, inside admin table. Password is hashed with SHA256, so please hash your password with SHA256 before changing it).
@@ -17,7 +17,7 @@ Notes on the system:
 4) All user data used in this system is only a template user consists of famous football (or soccer) players. Please add your own data!
 5) Facial recognition module may take some time to load registered user, estimation is about 15 seconds for 20 user.
 6) This system is only meant for small organization/groups that consists less than 30 members. More than that will cause facial recognition inaccuracies, performance issue and may crash your computer.
-7) In the system, user is assigned with status named TETAP and PINDAH. This status is used to indicate the availability of the user. TETAP means the user is still an employee of the schoiol whereas PINDAH means the user is not an employee anymore. You may change this in the coding if you like.
+7) In the system, user is assigned with status named TETAP and PINDAH. This status is used to indicate the availability of the user. TETAP means the user is still an employee of the school whereas PINDAH means the user is not an employee anymore. You may change this in the coding if you like.
 8) This system is originally written in Bahasa Malaysia due to my FYP stakeholder requirements. So, there maybe some unfamilliar words left out in the system.
 
 That is all! Have fun with this system and good luck on your project!
